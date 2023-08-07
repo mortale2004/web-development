@@ -1,0 +1,196 @@
+
+*{
+    margin: 0;
+    padding: 0;
+
+}
+.head{
+    padding: 30px 100px;
+}
+
+.himg{
+    display: inline-block;
+}
+.himg img{
+    width: 250px;
+    display: inline-block;
+    margin-left: 130px;
+    
+}
+.phone{
+    display: inline-block;
+}
+.phone i{
+    display: inline-block;
+    color:  #cca772;
+  
+}
+.phone p  a{
+    text-decoration: none;
+    color: black;
+}
+.phone p{
+    display: inline-block;
+   
+}
+.message p{
+    display: inline-block;
+}
+.message i{
+    color:  #cca772;
+    display: inline-block; 
+}
+.message p  a{
+    text-decoration: none;
+    color: black;
+}
+.phone{
+    display: inline-block;
+    margin:0px 40px 0px 500px;
+}
+.message{
+    display: inline-block;
+}
+.nfirst  li a{
+    color: black;
+    text-decoration: none;
+    font-weight: 400;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.nfirst li a:hover{
+    color: #cca772;
+}
+
+.nfirst li{
+display: inline-block;
+margin-left: 30px;
+}
+.nsecond li{
+    display: inline-block;
+    }
+.nsecond{
+    display: inline-block;
+    float: right;
+}
+
+.nfirst{
+    display: inline-block;
+}
+.nsecond li a i{
+    color: gray;
+    margin-right: 10px;
+}
+.nhead{
+    padding: 27px 230px;
+}
+
+
+footer{
+    background-color: #0b1a2a;
+    height: 380px;
+    width: 89%;
+    padding: 120px 0px 70px  176px;
+}
+.fheading{
+    width: 100%;
+    height: 40px;
+
+}
+.fheading p{
+    display: inline-block;
+    color: white;
+    font-size: 25px;
+    font-weight: 600;
+    margin-right: 77px;
+}
+.flinks a{
+    text-decoration: none;
+    color: gray;
+    font-size: 18px;
+    margin-right: 74px;
+}
+
+.flinks{
+width: 55%;
+display: inline-block;
+}
+#lreserch{
+    margin:0;
+}
+#lreserch1{
+    margin:0;
+}
+#fpara{
+    display: inline-block;
+    float: right;
+    margin: 20px 268px 0px 0px;
+  
+}
+.pa{
+    color: gray;
+    font-size: 18px;
+}
+#femail{
+    background-color: #363a4b;
+    color: white;
+    padding: 15px 40px;
+    border: none;
+    font-size: 15px;
+
+}
+#fbutton{
+    background-color:#cca772;
+    border: none;
+    color: white;
+    font-weight: 600;
+    padding: 9px 28px;
+    margin-left: -50px;
+}
+.copyright{
+    width: 100%;
+    color: white;
+    font-size: 17px;
+}
+#fcolorlib{
+    color:#cca772;
+}
+
+
+.lsecond li{
+    display: inline-block;
+    }
+.lsecond{
+    display: inline-block;
+    float: right;
+    margin-right: 200px;
+}
+
+.lsecond li a i{
+    color: white;
+    margin-right: 10px;
+    background-color:#363a4b;
+    padding: 7px 6px ;
+}
+
+.photo1{
+    width: 100%;
+    height: 450px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.697),rgba(0, 0, 0, 0.5)) , url('https://imaginepools.com/wp-content/uploads/2020/10/ImaginePools_Marvelous_40_ReefBlue_US_2018-1-1.jpg');
+}
+.about_text{
+ box-sizing: border-box;
+}
+.about_text h1{
+   
+    color: white;
+    font-size: 55px;
+    text-align: center;
+    
+}
+.about_text p{
+    color: white;
+    font-size: 16px;
+    text-align: center;
+}

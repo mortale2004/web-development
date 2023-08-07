@@ -1,0 +1,864 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.head {
+  padding: 30px 100px;
+}
+
+.himg {
+  display: inline-block;
+}
+.himg img {
+  width: 250px;
+  display: inline-block;
+  margin-left: 130px;
+}
+.phone {
+  display: inline-block;
+}
+.phone i {
+  display: inline-block;
+  color: #cca772;
+}
+.phone p a {
+  text-decoration: none;
+  color: black;
+}
+.phone p {
+  display: inline-block;
+}
+.message p {
+  display: inline-block;
+}
+.message i {
+  color: #cca772;
+  display: inline-block;
+}
+.message p a {
+  text-decoration: none;
+  color: black;
+}
+.phone {
+  display: inline-block;
+  margin: 0px 40px 0px 500px;
+}
+.message {
+  display: inline-block;
+}
+.nfirst li a {
+  color: black;
+  text-decoration: none;
+  font-weight: 400;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.nfirst li a:hover {
+  color: #cca772;
+}
+
+.nfirst li {
+  display: inline-block;
+  margin-left: 30px;
+}
+.nsecond li {
+  display: inline-block;
+}
+.nsecond {
+  display: inline-block;
+  float: right;
+}
+
+.nfirst {
+  display: inline-block;
+}
+.nsecond li a i {
+  color: gray;
+  margin-right: 10px;
+}
+.nhead {
+  padding: 27px 230px;
+}
+
+footer {
+  background-color: #0b1a2a;
+  height: 380px;
+  width: 89%;
+  padding: 120px 0px 70px 176px;
+}
+.fheading {
+  width: 100%;
+  height: 40px;
+}
+.fheading p {
+  display: inline-block;
+  color: white;
+  font-size: 25px;
+  font-weight: 600;
+  margin-right: 77px;
+}
+.flinks a {
+  text-decoration: none;
+  color: gray;
+  font-size: 18px;
+  margin-right: 74px;
+}
+
+.flinks {
+  width: 50%;
+  display: inline-block;
+}
+#lreserch {
+  margin: 0;
+}
+#lreserch1 {
+  margin: 0;
+}
+#fpara {
+  display: inline-block;
+  float: right;
+  margin: 20px 378px 0px 0px;
+}
+.pa {
+  color: gray;
+  font-size: 18px;
+}
+#femail {
+  background-color: #363a4b;
+  color: white;
+  padding: 15px 40px;
+  border: none;
+  font-size: 15px;
+}
+#fbutton {
+  background-color: #cca772;
+  border: none;
+  color: white;
+  font-weight: 600;
+  padding: 9px 28px;
+  margin-left: -50px;
+}
+.copyright {
+  width: 100%;
+  color: white;
+  font-size: 17px;
+}
+#fcolorlib {
+  color: #cca772;
+}
+
+.lsecond li {
+  display: inline-block;
+}
+.lsecond {
+  display: inline-block;
+  float: right;
+  margin-right: 200px;
+}
+
+.lsecond li a i {
+  color: white;
+  margin-right: 10px;
+  background-color: #363a4b;
+  padding: 7px 6px;
+}
+
+.photo1 {
+  width: 100%;
+  height: 700px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.697), rgba(0, 0, 0, 0.5)),
+    url("https://www.tridenthotels.com/content/gallery/1-Hotel-Exterior.jpg");
+}
+.about_text {
+  box-sizing: border-box;
+}
+.about_text h1 {
+  color: white;
+  font-size: 55px;
+  text-align: center;
+}
+.about_text p {
+  color: white;
+  font-size: 18px;
+  text-align: center;
+}
+#bbook {
+  background-color: transparent;
+  color: white;
+  font-weight: 600;
+  padding: 13px 40px;
+  border: 2px solid #cca772;
+  cursor: pointer;
+}
+#bbook:hover {
+  background-color: #cca772;
+}
+
+.sfirst {
+  padding: 23px 50px;
+  width: 51%;
+  margin: -90px 0px 0px 380px;
+  background-color: white;
+  box-shadow: 2px 2px 20px 1px black;
+  border: none;
+}
+#text {
+  padding: 13px 30px;
+  width: 346px;
+  color: gray;
+  border: 0.2px solid gray;
+}
+#text:focus {
+  outline: none;
+}
+select {
+  padding: 13px 94px 13px 15px;
+  font-size: 14px;
+  border-color: gray;
+  color: gray;
+}
+#submit {
+  padding: 13px 50px;
+  background-color: #cca772;
+  font-weight: 800;
+  border: none;
+}
+
+.photo2 {
+  width: 50%;
+  display: inline-block;
+}
+.iphoto2_1 {
+  height: 240px;
+  width: 190px;
+  margin: 0px 0px 0px 250px;
+  display: inline-block;
+  background-image: url("https://images.unsplash.com/photo-1573052905904-34ad8c27f0cc?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NXx8aG90ZWwlMjBpbnRlcmlvcnxlbnwwfHwwfHw%3D&w=1000&q=80");
+  background-size: cover;
+}
+.iphoto2_2 {
+  height: 240px;
+  width: 190px;
+  margin: 0px 0px 0px 0px;
+  background-size: cover;
+  display: inline-block;
+  background-image: url("https://media.istockphoto.com/id/1050564510/photo/3d-rendering-beautiful-luxury-bedroom-suite-in-hotel-with-tv.jpg?s=612x612&w=0&k=20&c=ZYEso7dgPl889aYddhY2Fj3GOyuwqliHkbbT8pjl_iM=");
+}
+
+.iphoto2_3 {
+  height: 250px;
+  width: 383px;
+  background-image: url("http://cdn-cms0.hotelrunner.com/assets/photos/large/65e9fef6-1141-4e3c-bc9f-f0972b7033a2.jpg");
+  background-size: cover;
+  margin: 0px 0px 0px 250px;
+}
+
+.text2 {
+  width: 40%;
+  display: inline-block;
+}
+.text2 h1 {
+  font-size: 40px;
+  font-family: sans-serif;
+}
+.text2 p {
+  font-size: 17px;
+
+  font-family: Arial, Helvetica, sans-serif;
+  color: gray;
+}
+#ssecond {
+  margin-top: 160px;
+}
+
+#sseven {
+  width: 100%;
+  height: 200px;
+  padding: 50px 0px 0px 0px;
+  margin: 00px 0px 0px 0px;
+  background-color: white;
+}
+#sseven h1 {
+  font-size: 45px;
+}
+#sseven img {
+  display: block;
+  margin: auto;
+}
+
+#seight1 {
+  width: 88%;
+  display: inline-block;
+  margin: 0px 0px 80px 180px;
+}
+.etext11 {
+  width: 400px;
+  box-sizing: border-box;
+  height: 600px;
+  display: inline-block;
+  margin: 0px 30px 0px 0px;
+  box-shadow: 10px 10px 20px 6px black;
+}
+#etext11img {
+  width: 100%;
+  box-sizing: border-box;
+  height: 400px;
+}
+
+#etext11img img {
+  width: 100%;
+  box-sizing: border-box;
+  height: 350px;
+}
+.text11 {
+  padding: 30px 29px;
+  margin: -50px 0px 0px 0px;
+  display: inline-block;
+}
+.text11 h1 {
+  font-size: 40px;
+}
+.text11 sub {
+  font-size: 22px;
+}
+.text11 h2:hover {
+  font-size: 24px;
+}
+
+.text11 p {
+  color: grey;
+  font-family: sans-serif;
+}
+.text11 a {
+  border: none;
+  color: black;
+  text-decoration: none;
+  font-weight: 600;
+}
+.etext11:hover h2 {
+  color: #cca772;
+}
+
+.etext11:hover a {
+  color: #cca772;
+}
+
+.etext21 {
+  width: 400px;
+  box-sizing: border-box;
+  height: 600px;
+  display: inline-block;
+  margin: 0px 30px 0px 0px;
+  box-shadow: 10px 10px 20px 6px black;
+}
+#etext21img {
+  width: 100%;
+  box-sizing: border-box;
+  height: 400px;
+}
+
+#etext21img img {
+  width: 100%;
+  box-sizing: border-box;
+  height: 350px;
+}
+.text21 {
+  padding: 30px 29px;
+  margin: -50px 0px 0px 0px;
+  display: inline-block;
+}
+.text21 h1 {
+  font-size: 40px;
+}
+.text21 sub {
+  font-size: 22px;
+}
+.text21 h2:hover {
+  font-size: 24px;
+}
+
+.text21 p {
+  color: grey;
+  font-family: sans-serif;
+}
+.text21 a {
+  border: none;
+  color: black;
+  text-decoration: none;
+  font-weight: 600;
+}
+.etext21:hover h2 {
+  color: #cca772;
+}
+
+.etext21:hover a {
+  color: #cca772;
+}
+
+.etext31 {
+  width: 400px;
+  box-sizing: border-box;
+  height: 600px;
+  display: inline-block;
+  margin: 0px 30px 0px 0px;
+  box-shadow: 10px 10px 20px 6px black;
+}
+#etext31img {
+  width: 100%;
+  box-sizing: border-box;
+  height: 400px;
+}
+
+#etext31img img {
+  width: 100%;
+  box-sizing: border-box;
+  height: 350px;
+}
+.text31 {
+  padding: 30px 29px;
+  margin: -50px 0px 0px 0px;
+  display: inline-block;
+}
+.text31 h1 {
+  font-size: 40px;
+}
+.text31 sub {
+  font-size: 22px;
+}
+.text31 h2:hover {
+  font-size: 24px;
+}
+
+.text31 p {
+  color: grey;
+  font-family: sans-serif;
+}
+.text31 a {
+  border: none;
+  color: black;
+  text-decoration: none;
+  font-weight: 600;
+}
+.etext31:hover h2 {
+  color: #cca772;
+}
+
+.etext31:hover a {
+  color: #cca772;
+}
+
+#sthird {
+  margin-top: 160px;
+}
+#sthird iframe {
+  width: 100%;
+  height: 600px;
+}
+#sforth {
+  width: 100%;
+  height: 200px;
+  margin-top: 160px;
+}
+#sforth h1 {
+  font-size: 45px;
+}
+#sforth img {
+  display: block;
+  margin: auto;
+}
+#sfifth {
+  margin-top: 160px;
+  height: 500px;
+  width: 70%;
+  float: center;
+  background-image: url("https://images.pexels.com/photos/4674770/pexels-photo-4674770.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+  background-repeat: no-repeat;
+  margin: 0px 230px 0px 239px;
+  background-size: cover;
+  background-position: center;
+}
+#sfifth img {
+  width: 1400px;
+}
+#ssix {
+  margin: 150px 0px 0px 160px;
+}
+.stext1 {
+  display: inline-block;
+  margin-right: 20px;
+  padding: 60px 50px;
+  background-color: white;
+}
+.stext1:hover {
+  color: white;
+  background-color: #cca772;
+}
+.stext1 h3 {
+  font-size: 30px;
+}
+
+.stext1 p {
+  font-size: 19px;
+  color: #777777;
+}
+.stext2 {
+  display: inline-block;
+  margin-right: 10px;
+  padding: 60px 50px;
+  background-color: white;
+}
+.stext2:hover {
+  color: white;
+  background-color: #cca772;
+}
+
+.stext2 h3 {
+  font-size: 30px;
+}
+.stext2 p {
+  font-size: 19px;
+  color: #777777;
+}
+.stext3 {
+  display: inline-block;
+  padding: 60px 50px;
+  background-color: white;
+}
+
+.stext3 h3 {
+  font-size: 30px;
+}
+.stext3 p {
+  font-size: 19px;
+  color: #777777;
+}
+.stext3:hover {
+  color: white;
+  background-color: #cca772;
+}
+.stext1 i {
+  color: #cca772;
+}
+
+.stext2 i {
+  color: #cca772;
+}
+
+.stext3 i {
+  color: #cca772;
+}
+
+#sseven {
+  width: 100%;
+  height: 200px;
+  padding: 90px 0px 0px 0px;
+  margin: 90px 0px 0px 0px;
+  background-color: white;
+}
+#sseven h1 {
+  font-size: 45px;
+}
+#sseven img {
+  display: block;
+  margin: auto;
+}
+
+#seight {
+  margin: 0px 0px 0px 0px;
+  padding: 0px 0px 0px 140px;
+  background-color: white;
+}
+.etext1 {
+  display: inline-block;
+  margin-right: 20px;
+  padding: 60px 50px;
+  background-color: #ebebed;
+  color: darkslategray;
+}
+
+.etext1 h3 {
+  font-size: 30px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  margin: 0px 0px 0px 87px;
+}
+
+.etext1 p {
+  font-size: 19px;
+  color: #777777;
+  display: inline-block;
+}
+
+#stextp1 {
+  margin: 0px 0px 0px 87px;
+}
+.etext1 img {
+  display: inline-block;
+  margin-right: 16px;
+}
+
+.etext2 {
+  display: inline-block;
+  margin: 0px 20px 0px 0px;
+  padding: 60px 50px;
+  background-color: #ebebed;
+  color: darkslategray;
+}
+
+.etext2 h3 {
+  font-size: 30px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  margin: 0px 0px 0px 87px;
+}
+
+.etext2 p {
+  font-size: 19px;
+  color: #777777;
+  display: inline-block;
+}
+#stextp2 {
+  margin: 0px 0px 0px 87px;
+}
+.etext2 img {
+  display: inline-block;
+  margin-right: 16px;
+}
+
+.etext3 {
+  display: inline-block;
+  margin-right: 20px;
+  padding: 60px 50px;
+  background-color: #ebebed;
+  color: darkslategray;
+}
+
+.etext3 h3 {
+  font-size: 30px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  margin: 0px 0px 0px 87px;
+}
+
+.etext3 p {
+  font-size: 19px;
+  color: #777777;
+  display: inline-block;
+}
+#stextp3 {
+  margin: 0px 0px 0px 87px;
+}
+.etext3 img {
+  display: inline-block;
+  margin-right: 16px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#seight12{
+    width: 80%;
+    display: inline-block;
+    margin: 180px 0px 180px 170px;
+}
+.etext12{
+    width: 400px;
+    box-sizing: border-box;
+    height: 680px;
+    display: inline-block;
+    margin: 0px 30px 0px 0px;
+    box-shadow: 10px 10px 20px 6px black;
+
+
+}
+.etext12 h2{
+    font-size: 30px;
+}
+#etext12img{
+    width: 100%;
+    box-sizing: border-box;
+    height: 400px;
+}
+
+#etext12img img{
+    width: 100%;
+    box-sizing: border-box;
+    height: 350px;
+    
+}
+.text12{
+    padding: 30px 29px;
+    margin: -50px 0px 0px 0px;
+    display: inline-block;
+}
+
+.text12 h2:hover{
+    font-size: 24px;
+}
+
+.text12 p i{
+    color: #cca772;
+}
+.text12 p{
+    color: grey;
+    font-family: sans-serif;
+}
+.text12 a{
+    border: none;
+    color: black;
+    text-decoration: none;
+    font-weight: 600;
+}
+.etext12:hover h2{
+    color:#cca772;
+    font-size: 30px;
+} 
+
+.etext12:hover a{
+    color:#cca772;
+} 
+
+
+
+
+.etext13{
+    width: 400px;
+    box-sizing: border-box;
+    height: 680px;
+    display: inline-block;
+    margin: 0px 30px 0px 0px;
+    box-shadow: 10px 10px 20px 6px black;
+
+
+}
+.etext13 h2{
+    font-size: 30px;
+}
+#etext13img{
+    width: 100%;
+    box-sizing: border-box;
+    height: 400px;
+}
+
+#etext13img img{
+    width: 100%;
+    box-sizing: border-box;
+    height: 350px;
+    
+}
+.text13{
+    padding: 30px 29px;
+    margin: -50px 0px 0px 0px;
+    display: inline-block;
+}
+
+.text13 h2:hover{
+    font-size: 24px;
+}
+
+.text13 p i{
+    color: #cca772;
+}
+.text13 p{
+    color: grey;
+    font-family: sans-serif;
+}
+.text13 a{
+    border: none;
+    color: black;
+    text-decoration: none;
+    font-weight: 600;
+}
+.etext13:hover h2{
+    color:#cca772;
+    font-size: 30px;
+} 
+
+.etext13:hover a{
+    color:#cca772;
+} 
+
+
+.etext14{
+    width: 400px;
+    box-sizing: border-box;
+    height: 680px;
+    display: inline-block;
+    margin: 0px 30px 0px 0px;
+    box-shadow: 10px 10px 20px 6px black;
+
+
+}
+.etext14 h2{
+    font-size: 30px;
+}
+#etext14img{
+    width: 100%;
+    box-sizing: border-box;
+    height: 400px;
+}
+
+#etext14img img{
+    width: 100%;
+    box-sizing: border-box;
+    height: 350px;
+    
+}
+.text14{
+    padding: 30px 29px;
+    margin: -50px 0px 0px 0px;
+    display: inline-block;
+}
+
+.text14 h2:hover{
+    font-size: 24px;
+}
+
+.text14 p i{
+    color: #cca772;
+}
+.text14 p{
+    color: grey;
+    font-family: sans-serif;
+}
+.text14 a{
+    border: none;
+    color: black;
+    text-decoration: none;
+    font-weight: 600;
+}
+.etext14:hover h2{
+    color:#cca772;
+    font-size: 30px;
+} 
+
+.etext14:hover a{
+    color:#cca772;
+} 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

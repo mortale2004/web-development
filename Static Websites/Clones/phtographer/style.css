@@ -1,0 +1,398 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: black;
+}
+.Navbar{
+    background-color: rgb(37, 37, 37);
+    opacity: 0.9;
+    height: 100%;
+    color: white;
+    position:fixed;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.Navbar ul{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.Navbar ul li a{
+    text-decoration: none;
+    
+    font-size: 1rem;
+    color: white;
+    
+}
+.Navbar ul li{
+    padding: 70% 90%;
+    list-style: none;
+    text-align: center;
+
+}
+.Navbar ul li i{
+    font-size: 2.4rem;
+}
+.Navbar img{
+    width: 130px;
+    margin: 10px 0px;
+    
+}
+.Navbar ul li:hover{
+    background-color: maroon;
+}
+header{
+    background-color: black;
+    display: flex;
+    color:white;
+    justify-content: center;
+    margin: 0px 0px 0px 150px;
+    justify-items: center;
+    padding: 0px 200px;
+    align-items: center;
+}
+header p{
+    text-align: center;
+    padding: 20px;
+    font-size: 1.1rem;
+    font-family: sans-serif;
+    font-weight: 100;
+}
+header h1{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 4rem;
+    font-weight: 100;
+    text-align: center;
+    padding: 20px;
+}
+header img{
+    width: 88%;
+    
+}
+.m_img{
+    margin-top: 70px;
+}
+.con1{
+    max-width: 1000px;
+    padding: 130px 0px ;
+
+}
+.c-1text p{
+    text-align: justify;
+    padding: 40px 0px;
+    color: gray;
+}
+.c-1text h2{
+    font-size: 2rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 40px 0px;
+    font-weight: 100;
+}
+.c-1text h3{
+    font-size: 1.5rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 100;
+}
+.gray{
+    width: 70%;
+    background-color: gray;
+    content: "";
+    height: 27px;
+}
+.white{
+    width: 100%;
+    background-color: white;
+}
+.s_inp{
+    width: 90%;
+}
+.t_inp{
+    width: 60%;
+}
+.reviews{
+    display: flex;
+    background-color: white;
+    color: black;
+    margin: 70px 0px 40px 0px;
+    text-align: center;
+    justify-content:space-evenly ;
+    padding: 20px;
+}
+.reviews h4{
+    font-size: 1.6rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.reviews p{
+    padding: 10px 0px;
+    color: rgb(61, 61, 61);
+}
+.resume{
+    padding: 13px 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1rem;
+    border: 0px ;
+}
+.resume:hover{
+    cursor: pointer;
+    background-color: rgb(163, 163, 163);
+}
+.two-sec{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+    margin: 50px 0px 0px 0px;
+}
+.box{
+    background-color: #535353; 
+    width: 49%;
+}
+.box:hover{
+    background-color: white;
+}
+.b_head{
+    background-color: rgb(51, 51, 51);
+}
+.box h2{
+    padding: 40px 0px;
+}
+.box p{
+    color: black;
+    text-align: center;
+    padding: 30px 0px;
+}
+.box h1{
+    color: black;
+    padding: 10px 0px;
+    margin: 0px;
+    font-size: 2.9rem;
+
+}
+.red{
+    color: red  ;
+}
+.box hr{
+    background-color: gray;
+}
+.box .small{
+    padding: 9px 0px;
+}
+.box button{
+    padding: 10px 25px;
+    font-size: 17px;
+    margin: 18px 0px;
+    background-color: gray;
+    border: none;
+}
+.box button:hover{
+    background-color: rgb(122, 122, 122);
+    cursor: pointer;
+}
+.box .b_foot{
+    background-color: rgb(44, 44, 44);
+}
+.comment{
+    margin: 55px 0px;
+}
+.c-first{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    margin: 25px 0px;
+    justify-content: space-between;
+
+}
+
+.c-first p{
+    padding: 0;
+    margin: 0px;
+}
+.c-first h3{
+    padding: 0px;
+    margin: 0px;
+}
+.c-first img{
+    width: 100%;
+    height: 100%;
+    border-radius: 1560px;
+    border: 2px solid black;
+}
+.c-f-img{
+    width: 100px;
+    height: 100px;
+}
+.c-f-text{
+    width: 88%;
+    margin: 0px 0px 0px 20px;
+
+}
+.photos{
+    height: 100%;
+    width: 100%;
+}
+.p_1{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    max-width: 1200px;
+}
+.p_1 img{
+    width: 49%;
+    padding: 10px 10px;
+}
+.p_1 .width_100{
+    width:100%;
+}
+.photos h3{
+    padding: 30px 0px 10px 0px;
+}
+.photos hr{
+    margin: 0px 0px 20px 0px;
+}
+
+.p_2{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    max-width: 1200px;
+}
+.width_49{
+    width: 49%;
+    padding: 10px 10px;
+}
+.p_2 .width_100{
+    width: 100%;
+    padding: 10px 10px;
+}
+footer h1{
+    text-align: left;
+    font-size: 2.5rem;
+    padding: 50px 0px 20px 0px;
+}
+footer .contact p{
+    padding: 16px  0px;
+}
+footer .contact i{
+    font-size: 2rem;
+    padding: 0px 20px 0px 0px;
+    color: white;
+}
+footer .contact form  i{
+    font-size: 1.5rem;
+    padding: 0px 20px 0px 0px;
+    color: black;
+}
+.contact input{
+    width: 100%;
+    padding: 18px 10px ;
+    margin: 14px 0px 0px 0px;
+    font-size: 1rem;
+}
+.contact .b_message{
+    margin: 14px 0px ;
+    padding: 12px 20px;
+    font-size: 1.2rem;
+}
+.contact .b_message i{
+    padding: 0px;
+}
+.contact .b_message:hover{
+    background-color: gray;
+    cursor: pointer;
+}
+.copy{
+    margin: 100px 0px 0px 0px;
+
+}
+.copy i{
+    color: white;
+    font-size: 1.6rem;
+    margin: 0px 0px 0px 10px;
+    padding: 0px;
+}
+.copy p{
+    padding: 30px 0px 0px 10px;
+}
+.copy p a{
+    color: grey;
+}
+.copy p a:hover{
+    color: green;
+}
+.burger{
+    cursor: pointer;
+    display: none;
+    position: absolute;
+    top: 95%;
+    left: 40%;
+}
+   
+.line{
+    background-color: white;
+    width: 23px;
+    height: 2px;
+    margin: 3px 0px;
+}
+
+
+@media screen and (max-width:1025px) {
+    .box{
+        width: 90%;
+        margin: 20px 20px;
+    }
+    .two-sec{
+    flex-direction: column;
+    }
+    .contact .b_message{
+        margin: 14  px 0px ;
+        padding: 7px 10px;
+        font-size: 0.7rem;
+    }
+    footer .contact form  i{
+        font-size: 1rem;
+        padding: 0px 20px 0px 0px;
+        color: black;
+    }
+    .burger{
+    display: block;
+    left: 25%;
+    }
+    .v-none-resp{
+    opacity: 0;
+    }
+    .h-nav-resp{
+    height: 100%;
+    background-color: transparent;
+    
+    }
+    .Navbar{
+        width: 50px;
+    }
+    .Navbar ul li a{
+        font-size: 0.8rem;
+    }
+    .Navbar ul li i{
+        font-size: 2rem;
+    }
+    .Navbar img{
+        width: 100%;
+    }
+    header{
+        margin: 0px 0px 0px 40px;
+    }
+    .Navbar ul li:hover{
+        background-color: maroon;
+        padding: 8px 6px;
+    }
+    .r{
+        padding: 0px 8px;
+
+    }
+}
