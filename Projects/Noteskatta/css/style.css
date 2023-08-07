@@ -1,0 +1,276 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap");
+/* main */
+
+main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.main-img {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.197), rgba(0, 0, 0, 0.494)),
+    url("/photo/background.jpg");
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  height: 400px;
+  color: white;
+  flex-direction: column;
+  font-family: sans-serif;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.main-img h2 {
+  font-size: 7rem;
+}
+.main-img p {
+  font-size: 2rem;
+}
+
+.blog_post {
+  background-image: linear-gradient(
+      90deg,
+      rgba(0, 0, 0, 0.208),
+      rgba(0, 0, 0, 0.657)
+    ),
+    url("/photo/card-1.jpg");
+  max-width: 500px;
+  background-size: cover;
+  background-position: right;
+  border-radius: 10px;
+  transition: 0.5s;
+}
+.blog_post:hover {
+  box-shadow: 2px 2px 1rem rgb(0, 0, 0);
+}
+.blog_post-2 {
+  background-image: linear-gradient(
+      90deg,
+      rgba(0, 0, 0, 0.51),
+      rgba(0, 0, 0, 0.765)
+    ),
+    url("https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8YWJvdXQlMjB1c3xlbnwwfHwwfHw%3D&w=1000&q=80");
+}
+
+.container_copy {
+  padding: 6rem 4rem;
+}
+.container_copy h3 {
+  color: #dadada;
+  font-size: 1.5rem;
+}
+
+.container_copy h1 {
+  font-size: 5rem;
+  letter-spacing: 0.5px;
+  color: #d40202;
+  font-family: "baloo 2";
+  font-weight: 900;
+}
+
+.container_copy p {
+  margin: 0 0 4.5rem 0;
+  font-size: 1.5rem;
+  line-height: 1.45;
+  color: #ffffff;
+}
+
+.container-1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 4rem;
+  width: 100%;
+  margin: 10px 0px;
+  padding: 30px;
+}
+
+.width {
+  font-size: 14rem;
+  font-stretch: ultra-expanded;
+}
+
+
+.testimonials {
+  position: relative;
+  background-image:linear-gradient(rgba(0, 0, 0, 0.842),rgba(0, 0, 0, 0)), url('/photo/dust\ \(1\).png');
+  background-color: currentColor;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 50px 0;
+  max-width: 1050px;
+  border-radius: 2rem;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  font-family: "Poppins", sans-serif;
+}
+.testimonials .item{
+  width: 100%;
+}
+
+.testimonials .title {
+  text-align: center;
+  margin-bottom: 50px;
+  position: relative;
+  padding: 20px 0;
+  max-width: 600px;
+  margin: 0 auto;
+}
+.testimonials .title h5 {
+  color: #eb6d2f;
+  line-height: 1.2em;
+  font-size: 2rem;
+  font-weight: 900;
+  margin-bottom: -3px;
+}
+.testimonials .title h2 {
+  color: rgb(0, 81, 255);
+  line-height: 1.2em;
+  font-weight: 900;
+  font-size: 4rem;
+  letter-spacing: -1px;
+  margin: 0;
+}
+.testimonials .title img {
+  margin-top: -10px;
+}
+.testimonials .title p {
+  margin: 0 0 10px;
+  margin-bottom: 0;
+  color: #5a3733;
+}
+.testimonials .testi .item {
+  background: #fff;
+  padding: 50px 30px;
+  border-radius: 15px;
+}
+.testimonials .testi .item .profile {
+  display: flex;
+  padding-left: 15px;
+}
+.testimonials .testi .item .profile img {
+  border-radius: 100%;
+  width: 50px;
+  height: 50px;
+  object-fit: cover;
+}
+.testimonials .testi .item .profile .information {
+  padding-left: 20px;
+  margin-bottom: 15px;
+}
+.testimonials .testi .item .profile .information .stars i {
+  color: #ffd832;
+}
+.testimonials .testi .item .profile .information p {
+  font-size: 2.5rem;
+  margin: 0px auto 0px;
+  color: #5a3733;
+  font-weight: 900;
+  line-height: 1;
+}
+.testimonials .testi .item .profile .information span {
+  color: #eb6d2f;
+  font-weight: bold;
+  margin-top: -4px;
+  line-height: 1.6em;
+  font-size: 1.4rem;
+}
+.testimonials .testi .item > p {
+  margin-bottom: 15px;
+  font-size: 1.6rem;
+  line-height: 1.6em;
+  display: block;
+  z-index: 2;
+  font-style: italic;
+  color: #5a3733;
+  text-align: center;
+}
+.testimonials .testi .item .icon {
+  text-align: center;
+}
+.testimonials .testi .item .icon i {
+  font-size: 2rem;
+  color: #ffd832;
+}
+
+
+/* about us */
+
+.text-blk {
+  line-height: 25px;
+}
+
+.responsive-container-block {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  font-family: 'baloo 2';
+  justify-content: flex-start;
+}
+
+.responsive-container-block.bigContainer {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.344),rgba(0, 0, 0, 0.171)), url("https://workik-widget-assets.s3.amazonaws.com/widget-assets/images/bb29.png");
+  background-size: cover;
+  margin: 9rem 0rem;
+  padding: 1rem 2rem;
+
+}
+
+.responsive-container-block.Container {
+  max-width: 800px;
+  flex-direction: column;
+  align-items: center;
+  padding:30px;
+  margin: 8rem auto;
+  border-radius: 1rem;
+  background-color: rgb(247, 247, 247);
+}
+.responsive-container-block.Container:hover{
+  
+  box-shadow: 2px 2px 150px black;
+}
+.text-blk.heading {
+  font-size: 4rem;
+  font-weight: 800;
+  margin:3rem 0rem;
+}
+
+.text-blk.subHeading {
+  text-align: center;
+  font-size: 1.8rem;
+  margin: 2rem 0rem;
+}
+
+.social-icons-container {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
+
+
+.social-icon{
+  margin: 0 3rem;
+  font-size: 4rem;
+  text-decoration: none;
+  color: #cea902;
+}
+
+.social-icon:hover {
+  cursor: pointer;
+  color: blue;
+}
+
+
+@media (max-width: 700px) {
+  .socialIcon {
+    width: 20px;
+    height: 20px;
+  }
+  .container-1{
+    flex-direction: column;
+  }
+}

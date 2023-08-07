@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+2:wght@800&family=Inknut+Antiqua:wght@300&display=swap');
+
+
+/* main */
+main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-family: sans-serif;
+}
+.main-img{
+  background-image:  linear-gradient(rgba(0, 0, 0, 0.638),rgba(0, 0, 0, 0.701)),url('https://cdn.wallpapersafari.com/18/74/TjFY4f.jpg');
+  align-items: center;
+  display: flex;
+  background-size: cover;
+  background-position: center;
+  justify-content: center;
+  height: 400px;
+  color: white;
+  flex-direction: column;
+  font-family: sans-serif;
+}
+.main-img h2{
+  font-size: 7rem;
+  text-align: center;
+
+}
+.main-img p{
+  font-size: 2rem;
+  text-align: center;
+}
+.collapsible .content{
+  text-align: center;
+}
+
+
+/* collapse in the downloads */
+.collapsible {
+  background-color: #002c0eab;
+  color: white;
+  cursor: pointer;
+  padding: 10px 18px;
+  width: 900px;
+  border: none;
+  display: flex;
+  justify-content: space-between;
+  outline: none;
+  font-size: 2rem;
+  font-family: 'Baloo 2';
+  border-radius: 0px 10px;
+  border-left: 1rem solid rgb(0, 0, 131);
+  margin: 5px 0px;
+}
+
+
+
+ .collapsible:hover {
+  /* background-color: #ff2626; */
+  border-left-color: rgb(255, 81, 0);
+}
+.black{
+  color: black;
+  background-color: rgb(228, 157, 4);
+}
+.content {
+  max-height: 0;
+  max-width: 900px;
+  overflow: hidden;
+  transition: max-height 0.5 ease linear;
+  background-color: rgb(185,183,181,0.377);
+  border-radius: 10px;
+}
+.content-new {
+  max-height: 100%;
+}
+.space{
+  margin: 20px;
+}
+
+.content h2{
+font-size: 2rem;
+color: black;
+}
+.content a{
+color:rgb(253, 89, 25);
+text-decoration: none;
+font-size: 2rem;
+}
+
+@media (max-width:930px) {
+  .collapsible{
+    width: 100%;
+  }
+}
