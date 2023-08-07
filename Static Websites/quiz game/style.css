@@ -1,0 +1,77 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(184, 184, 184);
+    color: white;
+    align-items: center;
+    justify-content: center;
+
+}
+.sectionVis{
+    width: 800px;
+    height: 400px;
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border-radius: 50px;
+    position: absolute;
+    z-index: 3;
+    flex-direction: column;
+
+}
+.sectionVis button{
+    padding: 20px 40px;    
+    font-size: 30px;
+    border-radius: 50px;
+    background: radial-gradient(rgb(139, 139, 0),rgb(3, 155, 3),rgb(4, 60, 82));
+    color: white;
+    border: none;
+    box-shadow: 2px 2px 10px yellow;
+    font-weight: 800;
+    font-family: cursive;
+    cursor: pointer;
+}
+
+.sectionVis h1{
+    font-family: cursive;
+}
+.section{
+    width: 800px;
+    height: 400px;
+    background-color: white;
+    padding: 50px;
+    color: black;
+    border-radius: 50px;
+    font-family: sans-serif;
+    position: relative;
+}
+#next{
+    padding: 10px 20px;
+    border-radius: 40px;
+    background: rgb(240, 242, 135);
+    color: rgb(120, 4, 4);
+    font-weight: 800;
+    border: none;
+    position: absolute;
+    font-size: 18px;
+    bottom: 50px;
+    right: 50px;
+}
+.container label{
+    width: 100%;
+    margin: 5px;
+}
+
+.container h1{
+    margin: 15px;
+}
+.container input{
+    margin: 10px 0px;
+}
