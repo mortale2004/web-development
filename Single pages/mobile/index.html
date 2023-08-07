@@ -1,0 +1,142 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+
+    <title>Iphone 14 Dynamic Island feacher
+    </title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    
+</body>
+
+</html>
+<input type="radio" name="theme" id="deep-purple" checked="checked">
+<input type="radio" name="theme" id="gold">
+<input type="radio" name="theme" id="space-black">
+<input type="radio" name="theme" id="silver">
+
+<div class="phone">
+    <div class="buttons">
+        <div class="left">
+            <div class="button"></div>
+            <div class="button"></div>
+            <div class="button"></div>
+        </div>
+        <div class="right">
+            <div class="button"></div>
+        </div>
+    </div>
+    <div class="camera"></div>
+    <div class="screen-container">
+        <div class="bg">
+            <div class="deep-purple">
+                <div class="section">
+                    <div class="glow"></div>
+                </div>
+                <div class="section">
+                    <div class="glow"></div>
+                </div>
+            </div>
+            <div class="gold">
+                <div class="section">
+                    <div class="glow"></div>
+                </div>
+                <div class="section">
+                    <div class="glow"></div>
+                </div>
+            </div>
+            <div class="space-black">
+                <div class="section">
+                    <div class="glow"></div>
+                </div>
+                <div class="section">
+                    <div class="glow"></div>
+                </div>
+            </div>
+            <div class="silver">
+                <div class="section">
+                    <div class="glow"></div>
+                </div>
+                <div class="section">
+                    <div class="glow"></div>
+                </div>
+            </div>
+        </div>
+        <div class="notch-container" tabindex="0">
+            <div class="notch">
+                <div class="content">
+                    <div class="left">
+                        <div class="title"></div>
+                        <div class="text"></div>
+                    </div>
+                    <div class="right"></div>
+
+                    <div class="bar">
+                        <i class="fa fa-play" id="play"></i>
+                        <input type="range" id="range" value="0">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="notch-blur"></div>
+    </div>
+</div>
+
+        <audio id="audio" src="y2mate.com - TOP 10 BOLLYWOOD PARTY SONGS.mp3" controls ></audio>
+
+
+<div class="pallette">
+    <label for="deep-purple" class="swatch"></label>
+    <label for="gold" class="swatch"></label>
+    <label for="space-black" class="swatch"></label>
+    <label for="silver" class="swatch"></label>
+</div>
+
+
+<script>
+    console.log("Hello");
+    let play = document.getElementById("play");
+    let pause = document.getElementById("pause");
+    let audio = document.getElementById("audio");
+
+    let value = audio.value;
+    console.log(value);
+    
+    play.addEventListener("click",function(){
+        if (audio.paused)
+        {
+            audio.play();
+            play.classList.add("fa-pause");
+        }
+        else
+        {
+            audio.pause();
+            play.classList.remove("fa-pause");
+            play.classList.add("fa-play");
+        }
+    })
+    
+    let range = document.getElementById("range");
+    let i=0;
+    let interval = setInterval(function(){
+        if (i<100)
+        {
+        range.value = i++;
+        }
+        else
+        {
+            i=0;
+        }
+    },1000);
+</script>
+</body>
+</html>

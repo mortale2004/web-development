@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.left-nav img{
+    width: 60px;
+}
+.center-nav ul{
+    display: flex;
+}
+.center-nav ul li{
+    list-style-type: none;
+}
+.center-nav ul li a{
+    color: black;
+    text-decoration: none;
+    margin: 0px 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 12px;
+    font-weight: 700;
+
+}
+.right-nav ul{
+    display: flex;
+}
+.right-nav ul li{
+    list-style-type: none;
+}
+.right-nav ul li a{
+    color: black;
+    text-decoration: none;
+    margin: 0px 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 12px;
+    font-weight: 700;
+}
+main {
+    display: flex;
+    width: 100%;
+ 
+    height: 600px;
+    align-items: center;
+    justify-content: center;
+    padding: 0px 150px;
+}
+.left-main{
+    width: 60%;
+    margin: 0px 20px 0px 0px;
+}
+.right-main{
+    width: 40%;
+}
+.right-main img{
+    width: 400px;
+}
+.left-main p{
+    color: grey;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 700;
+}
+.left-main h1{
+    font-size: 50px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.left-main h1 span{
+    color: red;
+}
+.left-main button{
+    background-color: red;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    margin: 20px 0px 0px 0px;
+    font-weight: 800;
+}
+.left-main button:hover{
+    cursor: pointer;
+}
+footer{
+    display: flex;
+    align-items: center;
+
+    height: 60px;
+}
+footer p i{
+    margin: 0px 10px;
+}
+footer p{
+font-size: 30px;
+margin: 0px 0px 0px 120px;
+}
+    </style>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="left-nav">
+                <img src="https://cdn.pixabay.com/photo/2016/12/28/08/15/hummingbird-1935665__340.png" alt="">
+            </div>
+            <div class="center-nav">
+                <ul>
+                    <li><a href="">HOME</a></li>
+                    <li><a href="">ABOUT</a></li>
+                    <li><a href="">SERVICE</a></li>
+                    <li><a href="">PORTFOLIO</a></li>
+                    <li><a href="">RESUME</a></li>
+                    <li><a href="">BLOG</a></li>
+                    <li><a href="">CONTACT</a></li>
+                </ul>
+            </div>
+            <div class="right-nav">
+                <ul>
+                    <li><a href="">FRA</a></li>
+                    <li><a href="">FRE</a></li>
+                    <li><a href="">ENG</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <div class="left-main">
+            <p>-- HELLO</p>
+            <h1>I'm <span>Jems</span> Kemuran</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis accusantium ullam ratione assumenda amet nostrum explicabo fugit adipisci voluptate, tenetur dolore suscipit ut quia ea optio repellendus! Eveniet, delectus odio.</p>
+            <button>DOWNLOAD CV</button>
+        </div>
+        <div class="right-main">
+            <img src="photo.png" alt="this is photo of website owner">
+        </div>
+    </main>
+    <footer>
+        <p> <a href="https://www.instagram.com/pavan_patil_701/"><i class="fa fa-instagram"></i></a></p>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GreeksofGreeks</title>
+  
+    <style>
+      
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    text-align: center;
+    width:100%;
+    height: 82px;
+    margin-top: 23px;
+    background-color: #000;
+    
+}
+img{
+    display: inline-block;
+    width: 53px;
+    margin-top: 15px;
+    
+}
+.greek{
+    display: inline-block;
+    color: green;
+    font-size: 32px;
+    margin: 0px 12px;
+}
+header li {
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+    font-weight: 300;
+    margin: 0px 22px ;
+}
+header li a{
+    
+    color: white;
+    text-decoration: none;
+    font-weight: 300;
+    font-size: 22px;
+}
+.inp {
+    display: inline-block;
+    margin-left: 366px;
+    
+}
+input{
+    padding: 8px 30px;
+    border-radius: 20px;
+    background-color: black;
+    color: white;
+    border-color: white;
+}
+.search{
+    border-radius: 20px;
+    background-color: white;
+    color:#000;
+    width: 490px;
+}
+
+footer{
+    background-color: rgb(31, 14, 63);
+    color: rgb(200, 255, 0);
+    font-size: larger;
+    font-weight: 500;
+}
+.right{
+   display: inline-block;
+   padding: 20px;
+   box-sizing: border-box;
+   background-color: black;
+   color: white;
+   width:100%;
+   margin: 12px 0px;
+   padding: 100px;
+}
+.text{
+   font-size: 20px;
+}
+h1{
+   font-size: 50px;
+}
+p{
+   color:aqua;
+}
+.copy{
+   color: gray;
+   margin-left: 40px;
+}
+.greeksi{
+   display: inline-block;
+   
+}
+#co{
+   margin-left: 750px;
+}
+.greeksim{
+   width: 110px;
+   margin-right: 30px;
+}
+
+
+    </style>
+    
+</head>
+<body>
+   
+   <header>
+      <ul >
+       <img valign="bottom" src="data:image/png;base64,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" alt="">
+       
+          <p class="greek">    GreeksofGreeks</p>
+          <li><a href="#">C Programing</a></li>
+          <li><a href="#">Web Technology</a></li>
+          <li><a href="#">Cources</a></li>
+      <div class="inp">
+      <input  type="search"placeholder="Search Here" class="search">
+      <input type="button" value="Search">
+  </div>
+  </ul>
+  </header>
+  <div class="con">
+
+      <div class="right">
+         <h1>C Language Introduction</h1> <br><br>
+         <div class="text">
+         <pre align="justfy">C is a procedural programming language. It was initially developed by Dennis Ritchie in the year 1972. It was mainly developed as a system   <br>programming language to write an operating system. The main features of the C language include low-level memory access, a simple set of <br>keywords, and a clean style, these features make C language suitable for system programmings like an operating system or compiler development. 
+          <br>Many later languages have borrowed syntax/features directly or indirectly from the C language. Like syntax of Java, PHP, JavaScript, and many<br>other languages are mainly based on the C language. C++ is nearly a superset of C language (Few programs may compile in C, but not in C++). 
+        <br><br> <hr>
+<b>Beginning with C programming:</b><br>
+Structure of a C program<br>
+         <br>After the above discussion, we can formally assess the structure of a C program. By structure, it is meant that any program <br>can be written in this structure only. Writing a C program in any other structure will hence lead to a Compilation Error.
+         <br>The structure of a C program is as follows:
+          
+         
+         <hr>
+         <br>The components of the above structure are: 
+         <br>Header Files Inclusion: The first and foremost component is the inclusion of the Header files in a C program. 
+         <br>A header file is a file with extension .h which contains C function declarations and macro definitions to be shared between <br>several source files.
+         <br>Some of C Header files: 
+         <br>stddef.h – Defines several useful types and macros.
+         <br>stdint.h – Defines exact width integer types.
+         <br>stdio.h – Defines core input and output functions
+         <br>stdlib.h – Defines numeric conversion functions, pseudo-random network generator, memory allocation
+         <br>string.h – Defines string handling functions
+         <br>math.h – Defines common mathematical functions
+         <br>Main Method Declaration: The next part of a C program is to declare the main() function. The syntax to declare the main <br>function is:
+         <br>
+         <hr><br><br>Syntax to Declare the main method: 
+          <p>
+         <br>int main()
+         <br>{
+
+         }
+      </p>
+          <hr>
+         <br>Variable Declaration: The next part of any C program is the variable declaration. It refers to the variables that are to be <br>used in the function. Please note that in the C program, no variable can be used without being declared. Also in a C <br>program, the variables are to be declared before any operation in the function.
+         <br>Example: 
+          <p>
+         <br>int main()
+         <br>{
+         <br>    int a;
+         <br>.
+         <br>.
+      </p>
+      <hr>
+          
+         <br>Body: The body of a function in the C program, refers to the operations that are performed in the functions. It can be <br>anything like manipulations, searching, sorting, printing, etc.
+         <br>Example: 
+          
+         <br><p>int main()
+         <br>{
+            <br>    int a;
+         
+            <br>printf("%d", a);
+            <br>.
+            <br>.
+         </p><hr>
+            <br>Return Statement: The last part of any C program is the return statement. The return statement refers to the returning <br>of the values from a function. This return statement and return value depend upon the return type of the function. For <br>example, if the return type is void, then there will be no return statement. In any other case, there will be a return <br>statement and the return value will be of the type of the specified return type.
+            <br>Example: 
+          
+            <br><p>int main()
+            <br>{
+               <br>int a;
+         
+               <br>printf("%d", a);
+         
+               <br>return 0;
+               <br>}</p>
+          <hr>
+               <br>Writing first program: 
+               <br>Following is first program in C
+          
+               <p>
+               <br>#include <stdio.h>
+                  <br>int main(void)
+                  <br>{
+                     <br>printf("GeeksQuiz");
+                     <br>return 0;
+                     <br>}</p>
+              <hr>
+                     <br>Let us analyze the program line by line. 
+                     <br>Line 1: [ #include <stdio.h> ] In a C program, all lines that start with # are processed by a preprocessor <br>which is a program invoked by the compiler. In a very basic term, the preprocessor takes a C program and <br>produces another C program. The produced program has no lines starting with #, all such lines are processed by <br>the preprocessor. In the above example, the preprocessor copies the preprocessed code of stdio.h to our file. <br>The .h files are called header files in C. These header files generally contain declarations of functions. We <br>need stdio.h for the function printf() used in the program. 
+                  <hr>
+                        <br>Line 2 [ int main(void) ] There must be a starting point from where execution of compiled C program begins. <br>In C, the execution typically begins with the first line of main(). The void written in brackets indicates <br>that the main doesn’t take any parameter (See this for more details). main() can be written to take <br>parameters also. We will be covering that in future posts. 
+                        <br>The int was written before main indicates return type of main(). The value returned by main indicates the <br>status of program termination. See this post for more details on the return type.
+                      <hr>
+                        <br>Line 3 and 6: [ { and } ] In C language, a pair of curly brackets define scope and are mainly used in <br>functions and control statements like if, else, loops. All functions must start and end with curly brackets. 
+                     <hr>  <br>Line 4 [ printf(“GeeksQuiz”); ] printf() is a standard library function to print something on standard <br>output. The semicolon at the end of printf indicates line termination. In C, a semicolon is always used to <br>indicate end of a statement. 
+                     <hr>   <br>Line 5 [ return 0; ] The return statement returns the value from main(). The returned value may be used by an operating system to 
+                        <br>know the termination status of your program. The value 0 typically means successful termination. 
+          <hr>
+                        <br>How to execute the above program: 
+                        <br>In order to execute the above program, we need to first compile it using a compiler and then we can run the generated executable. <br>There are online <br>IDEs available for free like <a href="https://ide.geeksforgeeks.org/">https://ide.geeksforgeeks.org/</a> ,<a href="http://ideone.com/">http://ideone.com/</a> , or <a href="http://codepad.org/">http://codepad.org/</a>  that <br>can be used to start development in C without installing a compiler.
+                        <br>Windows: There are many free IDEs available for developing programs in C like Code Blocks and Dev-CPP. IDEs provide us with <br>environment to develop code, compile it and finally execute it. We strongly recommend Code Blocks.
+                        <br>Linux: gcc compiler comes bundled with Linux which compiles C programs and generates executable for us to <br>run. Code Blocks can also be used with Linux. </pre>
+      </div>
+            </div>
+         </div>
+<footer>
+   <br><br>
+  <p class="greeksi" id="co">
+   <img  class="greeksim" src="https://media.geeksforgeeks.org/gfg-gg-logo.svg" alt="">
+<address align="center" class="greeksi">A-143, 9th Floor, Sovereign Corporate Tower,<br>
+Sector-136, Noida, Uttar Pradesh - 201305<br>
+feedback@geeksforgeeks.org<br>
+</p> 
+</address>
+<br><br>
+ <p class="copy">  &copy; Copyrigth Reserved to GreeksofGreeks </p><br><br>
+</footer>
+
+</body>
+</html>
