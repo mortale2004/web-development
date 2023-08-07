@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 .four-box{
     display: grid;
     align-items: center;
@@ -110,4 +111,118 @@
         grid-template-columns: auto ;
     }
      
+=======
+.four-box{
+    display: grid;
+    align-items: center;
+    /* justify-content: space-evenly; */
+    /* width: 100%; */
+    grid-template-columns: auto auto auto;
+    grid-column-gap: 5px;
+    grid-row-gap: 25px;
+    margin: 50px 0;
+}
+.cards{
+    width: 300px;
+    /* border: 2px solid black; */
+    height: 100%;
+}
+.cards a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-decoration: none;
+}
+
+.cards a img{
+    width: 200px;
+}
+.cards a p{
+    font-size: 3rem;
+}
+
+
+
+ .glow2 {
+    position: relative;
+
+    height: 20rem;
+    display: inline-block;
+    background-color: #FFF;
+    border-radius: 10px;
+    margin: 0px 10px;
+}
+
+ .glow2:before, 
+ .glow2:after {
+    content: '';
+    position: absolute;
+    inset: 0;
+    transition: 0.5s;
+    background: linear-gradient(45deg, #00ccff65, #0e153843,#0e15383b,#d400d465);   
+    border-radius: 10px;
+    
+    
+}
+
+ .glow2 span{
+     position: absolute;
+    top:0;
+    width: 100%;
+    left: 0;
+    height: 100%;
+    /* background-color: #7e4902; */
+    z-index: 10;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: #fff;
+    /* border: 1px solid #040a29; */
+    overflow: hidden;
+    border-radius: 10px;
+}
+
+
+.glow2:hover:after
+{
+    background: linear-gradient(95deg, #00ccff65, #0e153843,#0e15383b,#d400d465);   
+    inset: -3px;
+    filter:blur(10px);
+}
+
+
+ .glow2 span::before
+ {
+     content: '';
+    position: absolute;
+    top: 0;
+    left: -50%;
+    width: 100%;
+    height: 100%;
+    background: rgba(255,255,255,0.075);
+    transform: skew(25deg);
+
+}
+
+
+@media (max-width:1250px) {
+    .four-box{
+        grid-template-columns: auto auto;
+    }
+    .cards{
+        height: 25rem;
+    }
+
+
+}
+@media (max-width:650px) {
+    .four-box{
+        grid-template-columns: auto ;
+    }
+     
+>>>>>>> a862dbc7a8835004bdd984eb525bcd10833d870d
 }

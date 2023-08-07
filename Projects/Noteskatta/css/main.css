@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 @import url('https://fonts.googleapis.com/css2?family=Baloo+2:wght@800&family=Inknut+Antiqua:wght@300&display=swap');
 
 *{
@@ -346,3 +347,353 @@ nav ul li:hover div{
     }
   }
 
+=======
+@import url('https://fonts.googleapis.com/css2?family=Baloo+2:wght@800&family=Inknut+Antiqua:wght@300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 10px;
+    scroll-behavior: smooth;
+}
+:root{
+    --web-color: rgb(164, 125, 255);
+    --clr: rgb(13, 0, 19);
+}
+
+.all-center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+#loader {
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    z-index: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: linear-gradient(120deg, rgba(0, 0, 0, 0.71),rgba(3, 0, 0, 0.194)), url('https://png.pngtree.com/background/20210709/original/pngtree-creative-housing-sun-background-books-education-poster-picture-image_557788.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+ 
+  
+  /* Add animation to "page content" */
+  .animate-bottom {
+    position: relative;
+    -webkit-animation-name: animatebottom;
+    -webkit-animation-duration: 1s;
+    animation-name: animatebottom;
+    animation-duration: 1s
+  }
+  
+  @-webkit-keyframes animatebottom {
+    from { bottom:-100px; opacity:0 } 
+    to { bottom:0px; opacity:1 }
+  }
+  
+  @keyframes animatebottom { 
+    from{ bottom:-100px; opacity:0 } 
+    to{ bottom:0; opacity:1 }
+  }
+  
+  #myDiv {
+    display: none;
+  }
+
+
+.header {
+    background-image: url('/photo/header-backgound.png');
+    height: 70px;
+    background-size: 100% 100%;
+    display: flex;
+    align-items:center;
+    padding: 20px 50px;
+    font-family: 'Baloo 2', cursive;
+    height: 100%;
+    justify-content: center;
+}
+.img-header{
+    margin: 10px 50px 0px 0px;
+}
+.header img{
+    width: 100px;
+    border-radius: 50%;
+}
+.header h1{
+    font-size: 4rem;
+    font-weight: 900;
+    color: red;
+    line-height: 3.8rem;
+}
+
+.round{
+    border-radius: 50%;
+}
+
+.text-header-1{
+    font-size: 2.4rem;
+  
+}
+.text-header-2{
+    font-size: 1.8rem;
+    text-decoration: underline;
+}
+
+
+nav{
+    background-color: var(--clr);
+    height: 100%;
+    width: 100%;
+    padding: 10px;
+}
+.sticky{
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+nav ul li{
+    list-style: none;
+    padding: 10px 10px;
+}
+
+
+.icon{
+    font-size: 2rem;
+    text-align: right;
+    margin: 0px 0px 5px 0px;
+    display: none;
+}
+
+
+nav ul li a:hover, .glow:hover{
+    letter-spacing: 0.2rem;
+}
+nav ul li a, .glow {
+    border: none;
+    outline: none;
+    color: #fff;
+    background: #111;
+    cursor: pointer;
+    position: relative;
+    z-index: 0;
+    border-radius: 10px;
+    padding: 10px 20px;
+    font-size: 1.7rem;
+    text-decoration: none;
+    font-family: sans-serif;
+    transition: 0.5s;
+    font-weight: 100;
+}
+
+nav ul li a:before, .glow:before {
+    content: '';
+    background: linear-gradient(45deg, #ff0000, #ff7300, #fffb00, #48ff00, #00ffd5, #002bff, #7a00ff, #ff00c8, #ff0000);
+    position: absolute;
+    top: -2px;
+    left:-2px;
+    background-size: 400%;
+    z-index: -1;
+    filter: blur(5px);
+    width: calc(100% + 4px);
+    height: calc(100% + 4px);
+    animation: glowing 20s linear infinite;
+    opacity: 0;
+    transition: opacity .3s ease-in-out;
+    border-radius: 10px;
+}
+
+nav ul li a:hover:before ,.glow:hover:before{
+    opacity: 1;
+}
+
+nav ul li a:after ,.glow:after{
+    z-index: -1;
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: #111;
+    left: 0;
+    top: 0;
+    border-radius: 10px;
+}
+
+nav ul li div{
+    display: none;
+    position: absolute;
+    margin: 10px 0px;
+}
+nav ul li div li {
+    margin: 5px 0px;
+}
+nav ul li:hover div{
+    display: block;
+}
+
+@keyframes glowing {
+    0% { background-position: 0 0; }
+    50% { background-position: 400% 0; }
+    100% { background-position: 0 0; }
+}
+
+
+
+.active:before{
+     
+        content: '';
+        background: linear-gradient(45deg, #ff0000, #ff7300, #fffb00, #48ff00, #00ffd5, #002bff, #7a00ff, #ff00c8, #ff0000);
+        position: absolute;
+        top: -2px;
+        left:-2px;
+        background-size: 400%;
+        z-index: -1;
+        filter: blur(5px);
+        width: calc(100% + 4px);
+        height: calc(100% + 4px);
+        animation: glowing 20s linear infinite;
+        opacity: 1;
+        transition: opacity .3s ease-in-out;
+        border-radius: 10px;
+}
+
+
+#navbar{
+    background-color: var(--clr);
+    z-index: 200;
+}
+
+
+
+/* main */
+main{
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    padding: 30px 5px;
+}
+
+
+
+  .white:hover{
+    border: 2px solid black;
+    color: black;
+    background-color: white;
+  }
+  
+
+/* It removes arrows of the input type number box */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+@media (max-width: 900px) {
+    
+    html{
+        font-size: 8.5px;
+    }
+    header{
+        text-align: center;
+    }
+    #navbar li{
+        padding:10px 2px;
+    }
+    footer{
+        flex-direction: column;
+    }
+    #navbar{
+        flex-direction:column ;
+        padding: 20px;
+       
+    }
+    
+    #navbar ul{
+        flex-direction: column;
+        align-items: flex-end;   
+    }
+    #toggle{
+        display: none;
+    }
+    .icon{
+        display: block;
+        color: white;
+    }
+    
+nav ul li{
+    width: 100%;
+    text-align: center;
+} 
+
+
+nav ul li a {
+    width: 100%;
+    padding: 0 100%;
+
+}
+nav ul li a:before {
+    width: 100%;
+}
+
+nav ul li:hover div{
+    display: block;
+    position: relative;
+} html{
+    font-size: 9px;
+  }
+  .socialIcon {
+    width: 20px;
+    height: 20px;
+  }
+  .container-1{
+    flex-direction: column;
+  }
+  .header{
+      flex-direction: column;
+      font-size: 4rem;
+      padding: 20px 20px;
+
+  }
+  footer{
+      padding:20px 0px;
+  }
+
+}
+
+
+  @media  (max-width: 500px) {
+    html{
+      font-size: 8px;
+    }
+    .img-header{
+        margin: 10px 0px 0px 0px;
+    }
+    .box-1{
+      flex-direction: column;
+      width: 50%;
+      justify-content: center;
+      gap: 1.5rem;
+      text-align: center;
+      align-items: center;
+    }
+    .box-2{
+      margin-top: 2rem;
+    }
+    .box-2 ul li a i{
+        padding: 8px;
+    }
+    #loader{
+        background-position: 30% 20%;
+    }
+  }
+
+>>>>>>> a862dbc7a8835004bdd984eb525bcd10833d870d
